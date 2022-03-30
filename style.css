@@ -204,13 +204,13 @@ footer {
 .project-tech {
   margin: 0;
   overflow: hidden;
-  height: 0;
+  max-height: 0;
   color: var(--p-color-dim);
   word-spacing: 1rem;
-  transition: all var(--transition-duration) .5s;
+  transition: all var(--transition-duration);
 }
 .project:hover .project-tech {
-  height: 40px;
+  max-height: 100px;
   padding-bottom: 1.25rem;
 }
 
